@@ -3,7 +3,7 @@ services:
     jpf:
         build:
             context: .
-            dockerfile: DockerFile
+            dockerfile: Dockerfile
         image: jpf-dockerized
 
         stdin_open: true
