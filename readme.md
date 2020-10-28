@@ -20,7 +20,7 @@ An example docker-compose would look like the following:
 version: '3.8'
 services:
     jpf:
-        image: nwiatrek/jpf-dockerize
+        image: nwiatrek/jpf-dockerized
 
         stdin_open: true
         tty: true
